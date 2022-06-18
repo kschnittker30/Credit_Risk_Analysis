@@ -37,4 +37,7 @@ Easy ensemble adaBoost classifier (i.e. BalancedBaggingClassifier) takes each bo
 
 
 # Summary
+![image](https://user-images.githubusercontent.com/99636479/174423726-d7eb378a-2331-4b46-9eea-d7a219de7c1c.png)
+
+The precision score is high for all machine learning modules, however the accuracy score is low for all modules except the Easy Ensemble AdaBoost Classifier. Since we are trying to detect loan risk, the accuracy score is important because uncaught loan risk can lead to increased loan defaults. The F1 Score is low for all the models except the Easy Ensemble AdaBoost Classifier and SMOTEENN. Based on the summary table, the only model that can be used to identify good loan candidates is the Easy Ensemble AdaBoost Classifier. 
 
